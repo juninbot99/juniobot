@@ -1,4 +1,4 @@
-### Oii sou o Junin siga as instruções abaixo para instalar o bot
+### Oii sou o Junin siga as instruções abaixo para instalar o bot no termux
 
 
 
@@ -13,7 +13,6 @@
 ```
 
 ---
-
 
 - Get BarBarKey on [this site](https://mhankbarbar.tech)
 
@@ -37,9 +36,9 @@ Siga os passos abaixo!
 
 > pkg install npm
 
-> git clone https://github.com/juninbot99/juninobot.git
+> git clone https://github.com/juninbot99/juniobot.git
 
-> cd juniobut
+> cd juniobot
 
 > bash install.sh
 ```
@@ -49,17 +48,19 @@ Siga os passos abaixo!
 > npm start
 ```
 
-##Depois do QRcode
+## Depois do QRcode
 
-cd juniobut
+cd juniobot
 
-> npm i -g pm2
+$ npm i -g pm2
 
-> pm2 start index.js
+$ pm2 start index.js
 
-> pm2 monit
+$ pm2 monit
 
-
+ _Obs n precisa do $_
+ 
+ 
 ## características
 
 | características únicas | sim
